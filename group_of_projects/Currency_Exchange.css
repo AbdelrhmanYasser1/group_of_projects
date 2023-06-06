@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    background-image: url('money.jpg');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+}
+.container{
+    width: fit-content;
+    width: 160px;
+    height: 100vh;
+    background-color: crimson;
+    opacity: 0.6;
+    border-end-end-radius:50px ;
+    border-top-right-radius:50px ;
+}
+.container ul li{
+    padding: 10px;
+    list-style: none;
+}
+.container ul li a{
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+.container ul li:hover , button:hover{
+    background: #000;
+    cursor: pointer;
+}
+button{
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+}
+#close{
+    position: absolute;
+    left: 162px;
+}
+.hide{
+    display: none;
+}
+/* ////////////////////////////////////////// */
+
+.change-money{
+    display: flex;
+    justify-content: center;
+    margin-left: 380px;
+    /* display: inline-block; */
+}
+input{
+    /* display: flex; */
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 300px;
+
+}
+
+
